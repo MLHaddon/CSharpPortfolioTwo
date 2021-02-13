@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+</head>
+<body>
+  <div class="container">
+    <div class="text-center">
+      <a href="/">Home</a> | <a href="/projects">Projects</a> | <a href="/contact">Contact</a>
+      <h1 class="jumbotron">This is Main Page</h1>
+    </div>
+  </div>
+  <div class="container">
+    <h2 class="text-center">About Me</h2>
+    <div class="d-flex justify-content-center">
+      <div class="container">
+        <img src="~/images/profilePic.jpeg">
+        <h3>Michael's Haddon</h3>
+        <p>Interests and a brief description</p>
+      </div>
+      <div>
+        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <form action="addComment" method="post">
+      <div class="form-group">
+        <label for="comment">Comment</label>
+        <input type="text" name="comment" class="form-control">
+      </div>
+    </form>
+  </div>
+</body>
+</html>

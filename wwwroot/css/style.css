@@ -1,0 +1,7 @@
+#list-container {
+  height: 50px;
+  overflow: scroll;
+}
+ul {
+  list-style: none;
+}

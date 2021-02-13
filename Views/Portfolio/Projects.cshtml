@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+</head>
+<body>
+  <div class="container">
+    <div class="text-center">
+      <a href="/">Home</a> | <a href="/projects">Projects</a> | <a href="/contact">Contact</a>
+      <h1 class="jumbotron">This is the Projects Page</h1>
+    </div>
+  </div>
+  <div class="container">
+      <ul id="list-container">
+        <li>
+          <div class="d-flex justify-content-center">
+            <div>Project1</div>
+            <img src="~/images/html.png">
+            <p>Brief description of the project. Random text. Random text. Random text. Random text. Random text. Random text.</p>
+          </div>
+        </li>
+        <li>
+          <div class="d-flex justify-content-center">
+            <div>Project2</div>
+            <img src="~/images/css.png">
+            <p>Brief description of the project. Random text. Random text. Random text. Random text. Random text. Random text.</p>
+          </div>
+        </li>
+        <li>
+          <div class="d-flex justify-content-center">
+            <div>Project3</div>
+            <img src="~/images/js.png">
+            <p>Brief description of the project. Random text. Random text. Random text. Random text. Random text. Random text.</p>
+          </div>
+        </li>
+      </ul>
+  </div>
+  <div class="container">
+    <form action="addComment" method="post">
+      <div class="form-group">
+        <label for="comment">Comment</label>
+        <input type="text" name="comment" class="form-control">
+      </div>
+    </form>
+  </div>
+</body>
+</html>
